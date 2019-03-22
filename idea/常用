@@ -1,0 +1,24 @@
+自动生成getandset
+
+Command+n
+
+
+Command+option+L   格式化代码
+
+
+Option+command+B 查看实现类
+
+Command +  删除   删除这行
+
+Comand+shift+R   全局搜索
+
+Alt+回车 
+
+Idea中的小帽子----
+
+
+可以新生成没有的方法
+可以实现未实现的方法
+
+
+Shift+F6 重命名
