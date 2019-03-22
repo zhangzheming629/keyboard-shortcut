@@ -1,0 +1,7 @@
+Command+ 空格   打开用spotlight
+搜索 Network Utility
+打开之后切换到 Port Scan标签就可以
+ 
+ 
+ 打开mac终端，或者idea的终端，输入:lsof -i:端口号（如8080，那么输入如下命令）
+ lsof -i:8080回车后可以看到端口对应的进程id是xxx，比如我的是1472，那么kill这个进程即可。直接输入如下命令即可kill 1472
