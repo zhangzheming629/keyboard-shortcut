@@ -1,0 +1,20 @@
+首先进入到Maven官网的下载界面，选择Binary zip archive对应的apache-maven-3.5.3-bin.zip压缩包下载，如下：
+zip压缩包下载之后会自动解压成文件夹，将下载的apache-maven-3.5.3文件夹移动到我们方便查找的位置
+
+打开Mac终端terminel，输入
+vim ~/.bash_profile
+来打开.bash_profile文件
+
+点击i进入到编辑模式，然后输入
+MAVEN_HOME=你的maven目录
+PATH=$MAVEN_HOME/bin:$PATH 
+export MAVEN_HOME
+export PATH
+
+退出编辑之后在终端接着输入
+source ~/.bash_profile
+让刚才编辑的配置信息生效
+
+终端继续输入
+mvn -v
+当显示出下列信息则代表Maven安装配置成功。
