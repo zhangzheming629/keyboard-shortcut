@@ -1,6 +1,5 @@
 # keyboard-shortcut
-Mac 常用软件的常用快捷键
-逐步更新
+Mac 常用软件的常用快捷键总结
 
 
 
