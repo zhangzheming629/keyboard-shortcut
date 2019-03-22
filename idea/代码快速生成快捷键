@@ -1,0 +1,8 @@
+1. iter    Iterate (for each..in) 
+2. itin    Iterate (for..in) 
+3. itli    Iterate over a List
+4. itar    Iterate elements of array 
+5. ritar   Iterate elements of array in reverse order 
+
+
+Psvm  生成main方法
