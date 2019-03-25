@@ -1,0 +1,18 @@
+
+
+
+本项目设置settings
+IntelliJ IDEA--》build，Execution，deployment-》maven
+Maven home directory
+User setting files
+Local repository
+
+
+
+新项目设置settings
+
+File-》ohther settings-》preferences for new projects
+build，Execution，deployment-》maven
+Maven home directory
+User setting files
+Local repository
