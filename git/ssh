@@ -1,0 +1,15 @@
+ssh-keygen -t rsa -C "邮箱"
+
+ cat ~/.ssh/id_rsa.pub
+
+git remote remove origin
+
+add origin 后面的地址选你要拉取的地址
+git remote add origin ssh://git@网址:端口/project.git
+
+git pull origin dev
+
+
+ git clone ssh://git@网址:端口/project.git
+
+
