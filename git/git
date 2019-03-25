@@ -1,0 +1,26 @@
+Git命令
+
+
+1.第一次使用Git，需要配置用户名和邮箱
+git config --global user.name "用户名"
+git config --global user.email "电子邮箱"
+
+2.克隆代码仓库
+git clone https：//username.password@github.com/username/repository.git
+
+3.完成了一定的工作量，做一个阶段性的提交，并向这个本地的代码仓库添加当前目录的所有改动
+git add .
+
+4.查看状态 
+  git status
+
+5 在完成添加之后，写入相应的提交信息，如这次修改添加了什么内容，这次修改修复了什么问题
+Git commit -m  " "
+
+6 拉取服务器dev分支代码
+git pull origin dev 
+   拉取最新的代码，运行，看是否有冲突的地方
+   有的话进行修改运行无问题后重新进行add 和 commit ，无的话push代码
+
+7 把代码上传到服务器 devfen分支
+    git push origin dev
